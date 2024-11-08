@@ -11,7 +11,7 @@ def voice():
     # Create a TwiML response object
     response = VoiceResponse()
     # Respond with a greeting message
-    response.say("Hello, thank you for calling. How can I assist you today?")
+    response.say("Hello, thank you for calling Caseflood. I'm Luna, their AI assistant. How can I help?")
     return Response(str(response), mimetype="application/xml")
 
 # Run the server
